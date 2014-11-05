@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub pages auto-link",
+  "version": "0.1.0",
+  "permissions": [
+    "https://github.com/"
+  ],
+  "browser_action": {
+    "default_icon": "github.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
